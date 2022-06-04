@@ -1,43 +1,105 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
-      name="description"
-      content="Web site created using create-react-app"
+      name="DESCRIPTION"
+      content="Artysta gigantycznego talentu o nieograniczonych możliwościach: „Trela to zjawisko. W moim przekonaniu jest to człowiek dotknięty palcem bożym, nieświadomy wartości swego talentu. Korzysta z niego podobnie jak Aztekowie, którzy złota używali do wyrobu najprostszych narzędzi.”"
     />
+    <meta
+      name="Jest szalenie skromny i pokorny. Jurek to zwyczajność przy nadzwyczajności” – powiedział przed laty w Muzeum Historycznym, podczas wernisażu wystawy poświęconej artyście, Jerzy Bińczycki."
+      content="index, follow"
+    />
+    <meta name="handheldFriendly" content="true" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Znakomitą szkołę rzemiosła otrzymał Trela pracując pod mistrzowskim okiem Jerzego Jarockiego, który dostrzegł w jego aktorstwie cechy silnie charakterystyczne: świadomy dystans, autoironię, doskonałe wyczucie groteskowego absurdu."
+    />
+    <meta property="og:url" content="https://edyp.netlify.app" />
+    <meta property="og:image" content="https://edyp.netlify.app/assets/6.png" />
+    <meta property="fb:app_id" content="" />
+    <meta property="og:image:width" content="800" />
+    <meta property="og:image:height" content="1200" />
+    <meta
+      property="business:contact_data:street_address"
+      content="Odmienna, silnie inspirująca była współpraca aktora z Andrzejem Wajdą. Zaowocowała m.in. złożoną, niejednoznaczną postacią Claudiusa w inscenizacji „Tragicznej historii Hamleta księcia Danii” Szekspira, pełnokrwistego apodyktycznego sarmaty Rejenta Milczka w „Zemście” Fredry oraz Poety w „Weselu” Wyspiańskiego."
+    />
+    <meta
+      property="business:contact_data:locality"
+      content="Szczególne miejsce w swoich inscenizacjach wyznaczył Treli wybitny wizjoner teatru Jerzy Grzegorzewski. Poczynając od zbuntowanego, agresywnego Jaśka, stanowiącego kontrapunkt dla innych postaci „Wesela”, poprzez utkanego z grozy i absurdu Pułkownika Abłoputo w „Tak zwanej ludzkości w obłędzie” wg Witkacego, aż po wzruszającą, symboliczną obecność w „Dziadach – dwunastu improwizacjach” na podstawie dramatu Adama Mickiewicza."
+    />
+    <meta
+      property="business:contact_data:region"
+      content="Wywołująca salwy śmiechu, grana przez wiele sezonów rola Majora w komediowym szlagierze teatru – „Damy i huzary” Fredry w reżyserii Kazimierza Kutza (z którym artysta wielokrotnie pracował, tworząc kreacje w najwybitniejszych przedstawieniach Teatru TV) – była połączeniem mistrzowskiego warsztatu, wycyzelowanej komediowej formy z naturalną vis comica aktora."
+    />
+    <meta property="business:contact_data:postal_code" content="61000–61499" />
+    <meta
+      property="business:contact_data:country_name"
+      content="Profesor Jerzy Trela przez lata uczył aktorskiego rzemiosła studentów PWST w Krakowie, w latach 1984–1990 wielce się zasłużył uczelni jako jej rektor. Artysta jest laureatem wielu nagród teatralnych, filmowych, telewizyjnych."
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:site"
+      content="https://twitter.com/tdramat/status/702117100635234305"
+    />
+    <meta
+      name="twitter:title"
+      content="W 2011 roku został uhonorowany przez Prezydenta Bronisława Komorowskiego Krzyżem Komandorskim z Gwiazdą Orderu Odrodzenia Polski."
+    />
+    <meta
+      name="twitter:description"
+      content="Jerzy Trela nigdy nie krył swej wiary. Mówił, że w czasie wyjazdu do Izraela przeszedł tę samą drogę, którą pokonał Chrystus na Golgotę."
+    />
+    <meta
+      name="twitter:image"
+      content="https://edyp.netlify.app/assets/2.jfif"
+    />
+    <meta name="twitter:image:alt" content="" />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    <title>Jerzy Trela</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+    <div id="modal"></div>
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org/",
+        "@type": "VideoObject",
+        "name": "Jerzy Trela przez ponad dwadzieścia lat walczył z nowotworem. Niedługo po śmierci ukochanej żony choroba wróciła ze zdwojoną siłą.",
+        "contentUrl": "https://pl-pl.facebook.com/pages/category/Community/Skrzypek-na-dachu-421439487923855",
+        "duration": "PT00H04M33S",
+        "thumbnailUrl": "https://edyp.netlify.app/assets/9.jpg",
+        "uploadDate": "2022-06-04",
+        "description": "W tym czasie nagrywał słynną Biblię Audio. Kreował tam … samego Boga. Ponad 250 stron tekstu! Mimo choroby zdołał ukończyć pracę."
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "Blog",
+        "url": "https://edyp.netlify.app"
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "WebSite",
+        "name": "Początkowo nie wykazywał wielkich aktorskich zdolności.",
+        "url": "https://edyp.netlify.app",
+        "sameAs": [
+          "https://www.facebook.com/lisofokles.il",
+          "https://twitter.com/tdramat/status/702117100635234305",
+          "https://pl.wikipedia.org/wiki/Kr%C3%B3l_Edyp",
+          "https://www.youtube.com/watch?v=1YqWlWE6R6g",
+          "https://www.pinterest.es/pin/364932376034555395"
+        ]
+      }
+    </script>
   </body>
 </html>
