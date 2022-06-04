@@ -85,7 +85,11 @@ export default function Footer() {
     >
       <FaTwitterSquare />,
     </a>,
-    <a href="//google.com" target="_blank" rel="noopener noreferrer">
+    <a
+      href="//www.scenastu.pl/zespol/jerzy-trela"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
       <AiFillGoogleCircle />,
     </a>,
     <a
