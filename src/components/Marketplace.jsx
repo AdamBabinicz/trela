@@ -86,15 +86,6 @@ export default function MarketPlace() {
               <div className="image">
                 <img src={image} alt="marketplace" />
               </div>
-              {/* <div className="name">
-                <h4>{name}</h4>
-                <BsThreeDots />
-              </div>
-              <h6 className="username">@koolkishansheth</h6>
-              <div className="price-container">
-                <h5 className="price">5.5ETH</h5>
-                <FaEthereum />
-              </div> */}
             </div>
           );
         })}
@@ -197,6 +188,11 @@ const Section = styled.section`
   }
   @media screen and (min-width: 280px) and (max-width: 1080px) {
     margin: 2rem;
+
+    .title p {
+      font-size: 1.1rem;
+    }
+
     .marketPlaceTypes {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
