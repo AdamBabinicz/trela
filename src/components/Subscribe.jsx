@@ -119,6 +119,7 @@ const Section = styled.section`
       }
       p {
         line-height: 1.4rem;
+        font-size: 1.1rem;
       }
       .input-container {
         display: none;
