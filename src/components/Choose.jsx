@@ -95,7 +95,7 @@ const Section = styled.section`
     .content {
       gap: 1rem;
       h2 {
-        font-size: 1rem;
+        font-size: 3rem;
       }
       p {
         line-height: 1.3rem;

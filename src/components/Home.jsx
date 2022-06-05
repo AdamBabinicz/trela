@@ -211,15 +211,18 @@ const Section = styled.section`
             }
           }
         }
+        p {
+          font-size: 1.1rem;
+        }
         .buttons {
           flex-direction: column;
           justify-content: center;
           align-items: center;
         }
         .data {
-          justify-content: center;
-          align-items: center;
+          flex-direction: column;
           gap: 2rem;
+          text-align: center;
         }
       }
       .image {
