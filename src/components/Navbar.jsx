@@ -154,7 +154,6 @@ const Nav = styled.nav`
         li {
           a {
             color: #2d69fd;
-            font-size: 2rem;
           }
         }
       }
