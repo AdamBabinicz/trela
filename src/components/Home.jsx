@@ -47,7 +47,7 @@ export default function Home() {
                 świat nie jest wcale taki, jakim go dotychczas postrzegał - jest
                 gorszy. Gdy żaląc się do Boga patrzy nam prosto w oczy,
                 przeistacza się z prowincjonalnego poczciwca w postać ze sztuki
-                klasyczne.
+                klasycznej.
               </p>
               <br />
               <p>
